@@ -1,0 +1,209 @@
+#loginForm label {
+    font-size: 11px;
+}
+
+body {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td input[type="text"], tr input[type="password"], tr input[type="date"] {
+    margin-left: 0;
+    margin-right: auto;
+
+    text-align: left;
+}
+
+td label {
+    text-align: right;
+}
+
+tr {
+    /*text-align: right;*/
+}
+
+tr button[type="submit"] {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.error {
+    color: darkred;
+    font-weight: bold;
+    font-family: 'Comic Sans MS';
+}
+
+/* For registration page */
+p.error#passwordUnverify {
+    font-size: 11px;
+    display: none;
+}
+
+/* For general navbar stuff */
+#navbar {
+    /*overflow: hidden;*/
+    background-color: darkblue;
+    height: 7%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+}
+
+#navbar a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar #profileDropdown a {
+    float: none;
+    display: block;
+}
+
+img#profileImg {
+    border-radius: 50%;
+    height: 100%;
+    width: auto;
+    float: left;
+}
+
+button img#arrow {
+    /*margin-top: auto;*/
+    /*margin-bottom: auto;*/
+    height: 100%;
+    width: auto;
+
+    transform: rotate(90deg)
+
+}
+
+button span {
+    vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
+
+    top: 50%;
+    -ms-transform: translateY(67%);
+    transform: translateY(67%);
+    display: inline-block;
+}
+
+.vertAlign {
+    height: 50%;
+    display: block;
+    float: right;
+
+
+    margin: 0;
+    top: 50%;
+    right: 1%;
+
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+}
+
+button#profileButton {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    display: inline-block;
+}
+
+div#profile {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+    float: right;
+    top: 50%;
+    width: 15%;
+        /*-ms-transform: translateY(50%);*/
+        /*transform: translateY(50%);*/
+}
+
+.hidden {
+    display: none;
+}
+
+/* For stuff below the navbar */
+#mainContent {
+    text-align: center;
+    width: 100%;
+    margin-top: 3%;
+    position: relative;
+}
+
+
+/* Profile editing stuff */
+
+/* First thing up is the profile picture change. For this, I'm using a popup window, so here's the styling for that. */
+#popup {
+    z-index: 101;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#scrollbarBuffer {
+    height: 60%;
+    width: 50%;
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.popupContent {
+    border-radius: 5px;
+    position: relative;
+    height: 100%;
+
+    align-items: center;
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+#previewImg {
+    width: 75%;
+    height: auto;
+    object-fit: cover;
+}
+
+#uploadSubmit {
+    display: none;
+}
+
+#changeImg {
+    border-radius: 50%;
+    object-fit: cover;
+}

@@ -1,0 +1,239 @@
+body{
+    background-color: #DED2AA;
+    font-family: Tahoma;
+    padding-top: 5%;
+}
+.welcome{
+    color:green;
+    font-weight:bold;
+    background-color:#ccffd3;
+    font-size:20px;
+  padding: 20px 70px;
+  border: 3px solid green;
+  text-align: center;
+}
+.quizdiv{
+    border: 5px outset #B3816E;
+  background-color: #C0DEA9;
+  text-align: center;
+  width:70%;
+  margin-left:15%;
+  
+}
+.s {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+.timerdiv{
+    font-size:200px;
+    font-weight:bold;
+    font-style: italic;
+    text-align:center;
+    color:white;
+}
+
+/* Navbar stuff */
+#navbar {
+    /*overflow: hidden;*/
+    background-color: #4CAF50;
+    color: black;
+    height: 7%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+}
+
+#navbar a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    border: 2px solid green;
+    background-color: #DED2AA
+}
+
+#navbar #profileDropdown a {
+    float: none;
+    display: block;
+}
+
+img#profileImg {
+    border-radius: 50%;
+    height: 100%;
+    width: auto;
+    float: left;
+}
+
+button img#arrow {
+    /*margin-top: auto;*/
+    /*margin-bottom: auto;*/
+    height: 100%;
+    width: auto;
+
+    transform: rotate(90deg)
+
+}
+
+button span {
+    vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
+
+    top: 50%;
+    -ms-transform: translateY(67%);
+    transform: translateY(67%);
+    display: inline-block;
+}
+
+.vertAlign {
+    height: 50%;
+    display: block;
+    float: right;
+
+
+    margin: 0;
+    top: 50%;
+    right: 1%;
+
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+}
+h1{
+    text-align:center;
+    font-style:italic;
+}
+h4{
+    width: 50%;
+    font-size:17px;
+    color:#662f19;
+    font-style:oblique;
+    padding-left:25%
+    
+}
+button#profileButton {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #DED2AA;
+    border: 2px solid green;
+}
+
+div#profile {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+    float: right;
+    top: 50%;
+    width: 15%;
+    /*-ms-transform: translateY(50%);*/
+    /*transform: translateY(50%);*/
+}
+
+.hidden {
+    display: none;
+}
+
+form#loginForm, p#noAccount {
+    text-align: center;
+}
+
+table#registerTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#center {
+    text-align: center;
+}
+
+p.error {
+    color: darkred;
+    font-weight: bold;
+    font-family: 'Comic Sans MS';
+}
+
+/* For registration page */
+p.error#passwordUnverify {
+    font-size: 11px;
+    display: none;
+}
+
+/* Profile editing stuff */
+
+/* First thing up is the profile picture change. For this, I'm using a popup window, so here's the styling for that. */
+#popup {
+    z-index: 101;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#scrollbarBuffer {
+    height: 60%;
+    width: 50%;
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.popupContent {
+    border-radius: 5px;
+    position: relative;
+    height: 100%;
+
+    align-items: center;
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+#previewImg {
+    width: 75%;
+    object-fit: cover;
+}
+
+#uploadSubmit {
+    display: none;
+}
+
+#changeImg {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#profileContent {
+    text-align: center;
+}

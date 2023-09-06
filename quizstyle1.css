@@ -1,0 +1,29 @@
+body{
+    background-color:#DED2AA;
+    font-family: Tahoma;
+    color:#662f19;
+    text-align:center;
+}
+.quizdiv{
+    border: 5px outset #B3816E;
+  background-color: #C0DEA9;
+  text-align: center;
+  width:70%;
+}
+h3{
+    font-size:18px;
+    font-style:oblique;
+    color: #ad8d5d;
+    width:70%;
+    padding-left:15%;
+}
+.s {
+    background-color: #C7A26B; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
