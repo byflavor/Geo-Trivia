@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-    <!--ID:123003 and  Date:12/12/21  Purpose: Study page for quarter 2 project using timer-->
     <head>
         <link rel="stylesheet" href="studystyle1.css">
         <title>Study Time!</title>
