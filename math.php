@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <?php
-//123003 and 122145 Date: 12/10/21 Purpose: quiz page with questions
-//Citatons: Ms. Pandya, Noor, W3Schools
+
 if(session_status() == PHP_SESSION_NONE) {
     session_start();
 }
