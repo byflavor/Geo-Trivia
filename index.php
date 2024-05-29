@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <?php require_once("./connect.php");?>
 <html lang="en-us">
-<!--123003 and 122145 Date: 12/10/21 Purpose: index page for quarter 2 project-->
     <head>
         <title>Index</title>
         <link rel="stylesheet" href="studystyle1.css">
