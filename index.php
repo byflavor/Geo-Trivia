@@ -9,12 +9,6 @@
         <?php include "./navbar.php"?>
         <div id="mainContent">
             <h1>The Best, Most Wonderful Geography Quiz Page Ever!!!</h1>
-            <h4>Welcome to out wonderful quiz page! The creators of this
-            page are certified geniuses and experts in geography,
-            proven by their PHDs in Human Geography and World Geography 
-            from the International Geography Institute. They are passionate
-            about spreading their love for the field through
-            trivia quizzes and study material.</h4><br>
             <h4>Navigate over to the study page to learn more about geography
             or take the quiz without studying (wow!) if you're feeling 
             extra confident...
